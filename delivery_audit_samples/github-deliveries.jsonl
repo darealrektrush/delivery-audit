@@ -1,2 +1,0 @@
-{"guid": "demo-push-1", "request": {"headers": {"X-GitHub-Delivery": "demo-push-1"}, "payload": {"ref": "refs/heads/docs", "repository": {"id": 101}}}}
-{"guid": "demo-issue-2", "request": {"headers": {"X-GitHub-Delivery": "demo-issue-2"}, "payload": {"action": "opened", "issue": {"number": 7}}}}
