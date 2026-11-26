@@ -1,0 +1,3 @@
+{"headers": {"x-github-delivery": "demo-issue-2"}, "body": {"action": "opened", "issue": {"number": 7}}}
+{"headers": {"x-github-delivery": "demo-push-1"}, "body": {"ref": "refs/heads/docs", "repository": {"id": 101}}}
+{"headers": {"x-github-delivery": "demo-issue-2"}, "body": {"action": "opened", "issue": {"number": 7}}}

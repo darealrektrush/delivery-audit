@@ -1,0 +1,3 @@
+include README.md LICENSE CHANGELOG.md CONTRIBUTING.md SECURITY.md
+include test_delivery_audit.py test_sources.py test_demo.py
+recursive-include examples *.jsonl
