@@ -1,0 +1,30 @@
+name: Delivery Audit field feedback
+description: Report a useful result, confusing instruction or obstacle during a first or repeat run.
+body:
+  - type: markdown
+    attributes:
+      value: "A partial run is useful feedback. Keep real payloads, delivery IDs, credentials and logs private. Use aggregate counts or a tiny synthetic example."
+  - type: dropdown
+    id: stage
+    attributes:
+      label: How far did you get?
+      options:
+        - Tried to install
+        - Ran a bundled example
+        - Prepared sender or receiver records
+        - Compared records from both sides
+        - Used it again for another investigation
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: What happened, and what did you check next?
+      description: Include the first unclear instruction or unexpected result. A one-sentence answer is enough.
+    validations:
+      required: true
+  - type: input
+    id: setup
+    attributes:
+      label: Setup (optional)
+      description: CLI version, Python version and input format, if known.
